@@ -7,6 +7,8 @@ body {
     sans-serif;
   margin: 0;
   padding: 0;
+  font-weight: bold;
+
   font-size: 62.5%;
   color: #1e3932;
 }
@@ -22,13 +24,6 @@ body {
     0 0 2px rgba(0, 0, 0, 0.07);
 }
 
-.navbar-left {
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  flex: 1;
-}
-
 .navbar-left svg {
   width: 50px;
   margin-right: 20px;
@@ -41,15 +36,23 @@ body {
 
 .navbar-left div:hover,
 .find-a-store:hover {
-  color: #00754a;
+  color: #006341;
   cursor: pointer;
 }
 
+.navbar-left {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 8rem;
+}
 .navbar-right {
   display: flex;
   align-items: center;
+  margin-right: 10rem;
 }
 
+.navbar-left > *,
 .navbar-right > * {
   margin: 10px;
 }
